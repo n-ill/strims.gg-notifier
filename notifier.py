@@ -49,7 +49,7 @@ if __name__ == '__main__':
             continue
 
         for line in info:
-            message += line + '\n'
+            message = message + line + '\n'
 
         send_email(message)
 
